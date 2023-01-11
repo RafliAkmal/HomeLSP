@@ -174,8 +174,8 @@
                 <form action="{{ route('registrasi')}}" method='POST' >
                   @csrf
                   @method('POST')
-                <select name="idSkema" class="form-control">
-                  <option disabled selected>---Pilih Skema---</option>
+                <select name="idSkema" class="form-control" required>
+                  <option disabled selected></option>
                   @foreach($skema as $skema)
                   <option value="{{$skema['idSkema']}}">{{$skema['nama']}}</option>
                   @endforeach
