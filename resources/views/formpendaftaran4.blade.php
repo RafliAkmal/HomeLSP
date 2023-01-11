@@ -134,7 +134,7 @@
                 </li>
                 <li>
                     <i class="icon uil uil-clipboard-notes"></i>
-                    <div class="progress two">
+                    <div class="progress two active">
                         <p></p>
                         <i class="uil uil-check"></i>
                     </div>

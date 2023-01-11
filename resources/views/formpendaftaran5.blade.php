@@ -182,7 +182,196 @@
                 </div>
 
                 <h6 class="mt-2 mb-2" style="color: #547153">Unit Kompetensi : P. 854900.011.01 - Menyusun Program Pelatihan</h6>
-                <h6 class="mt-2 mb-2" style="color: #black">Dapatkah Saya..........?</h6>
+                <h6 class="mt-2 mb-4" style="color: #black">Dapatkah Saya..........?</h6>
+                <h6 class="fw-bolder mt-2 mb-2" style="color: #547153">*Elemen 1 : Menentukan Kualifikasi Program Pelatihan</h6>
+
+                <div class="card">
+                    <div class="table-responsive">
+                      <table class="table align-items-center mb-0">
+                        <thead>
+                          <tr>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nomor</th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Kriteria</th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">K</th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">BK</th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Bukti Relevan</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="d-flex px-2">
+                                <div class="my-auto">
+                                  <h6 class="mb-0 text-xs">1.1</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <p class="text-xs font-weight-bold mb-0">Nama program pelatihan ditentukan berdasarkan
+                                pemaketan/pengemasan kompetensi</p>
+                            </td>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                            </td>
+                  
+                            <td>
+                                <div class="form-group">
+                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                </div>
+                            </td>
+                          </tr>
+                  
+                          <tr>
+                            <td>
+                              <div class="d-flex px-2">
+                                <div class="my-auto">
+                                  <h6 class="mb-0 text-xs">1.2</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <p class="text-xs font-weight-bold mb-0">Jenjang program pelatihan ditentukan
+                                berdasarkan jenjang kualifikasi</p>
+                            </td>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                            </td>
+                            <td>
+
+                            </td>
+                          </tr>
+                  
+                          <tr>
+                            <td>
+                              <div class="d-flex px-2">
+                                <div class="my-auto">
+                                  <h6 class="mb-0 text-xs">1.3</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <p class="text-xs font-weight-bold mb-0">Deskripsi program pelatihan dirumuskan
+                                mengacu kepada isi program pelatihan</p>
+                            </td>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                            </td>
+                            <td>
+
+                            </td>
+                          </tr>
+                  
+                        </tbody>
+                      </table>
+                    </div>
+                    </div>
+
+                    <h6 class="fw-bolder mt-4 mb-2" style="color: #547153">*Elemen 2: Menentukan Prasyarat Peserta</h6>
+
+                    <div class="card">
+                        <div class="table-responsive">
+                          <table class="table align-items-center mb-0">
+                            <thead>
+                              <tr>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nomor</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Kriteria</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">K</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">BK</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Bukti Relevan</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <div class="d-flex px-2">
+                                    <div class="my-auto">
+                                      <h6 class="mb-0 text-xs">2.1</h6>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <p class="text-xs font-weight-bold mb-0">Persyaratan umum peserta ditentukan
+                                    berdasarkan kebutuhan program pelatihan</p>
+                                </td>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                  </div>
+                                </td>
+                      
+                                <td>
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" value="" id="example-text-input">
+                                    </div>
+                                </td>
+                              </tr>
+                      
+                              <tr>
+                                <td>
+                                  <div class="d-flex px-2">
+                                    <div class="my-auto">
+                                      <h6 class="mb-0 text-xs">2.2</h6>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <p class="text-xs font-weight-bold mb-0">Persyaratan kompetensi ditentukan mengacu
+                                    pada prasyarat untuk mengikuti program pelatihan</p>
+                                </td>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                  </div>
+                                </td>
+                                <td>
+    
+                                </td>
+                              </tr>
+                      
+                            </tbody>
+                          </table>
+                        </div>
+                        </div>
+
+                        <div class="row ">
+                            <div class="col align-self-end">
+                              
+                              <button class="btn btn-success mt-3" type="submit">Berikutnya</button>
+                              
+                              
+                            </div>
+                          </div>
 
           </div>
         </div>

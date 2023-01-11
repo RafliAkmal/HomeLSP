@@ -134,7 +134,7 @@
                 </li>
                 <li>
                     <i class="icon uil uil-clipboard-notes"></i>
-                    <div class="progress two">
+                    <div class="progress two active">
                         <p></p>
                         <i class="uil uil-check"></i>
                     </div>
@@ -142,7 +142,7 @@
                 </li>
                 <li>
                     <i class="icon uil uil-credit-card"></i>
-                    <div class="progress three">
+                    <div class="progress three active">
                         <p></p>
                         <i class="uil uil-check"></i>
                     </div>
@@ -150,7 +150,7 @@
                 </li>
                 <li>
                     <i class="icon uil uil-exchange"></i>
-                    <div class="progress four">
+                    <div class="progress four active">
                         <p></p>
                         <i class="uil uil-check"></i>
                     </div>
@@ -169,88 +169,28 @@
           </div>
          
 
-                <h4 class="fw-bolder" style="color: #7D8F69;">Persyaratan Skema Pelaksana Program Pelatihan Tatap Muka (1/3)</h1>
-                <h5 class="mt-4 mb-4" style="color: #547153">Silakan Pahami Persyaratan Skema Terlebih Dahulu</h5>
-                  <p> 1. Berasal dari Program Studi Kependidikan di UNJ</p>
-                  <p> 2. Telah melaksanakan Praktik Kerja Mengajar</p>
-                  <p> 3. Uji Kompetensi ini Dilakukan Secara Luring (Offline) di Tempat Uji Kompetensi (TUK) Kampus UNJ pada Bulan Januari 2023.</p>
-                  <p> 4. Membayar Biaya Sertifikasi Sebesar Rp 500.000</p>
-                  
-                  <div class="row mt-8">
-                    <div class="col align-self-end">
-                      <h4 class="fw-bolder" style="color: #7D8F69;">Pengisian Persyaratan Dasar Pendaftaran (2/3)</h1>  
-                        <h5 class="mt-4" style="color: #547153">Silakan Mengisi Data Persyaratan Pendaftaran Terlebih Dahulu</h5> <br>
-                    </div>
-                    <form>
-                      <div class="form-group">
-                          <label for="example-text-input" class="form-control-label">Nama Lengkap</label>
-                          <input class="form-control" type="text" value="{{ session('user_name') }}" id="example-text-input">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1">Jenis Kelamin</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option disabled selected>---Pilih Jenis Kelamin---</option>
-                          <option>Laki-laki</option>
-                          <option>Perempuan</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                          <label for="example-text-input" class="form-control-label">NIM</label>
-                          <input class="form-control" type="text" value="" id="example-text-input">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1">Fakultas</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option disabled selected>---Pilih Fakultas---</option>
-                          <option>MIPA</option>
-                          <option>Teknik</option>
-                          <option>Psikologi</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1">Program Studi</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option disabled selected>---Pilih Program Studi---</option>
-                          <option>MIPA</option>
-                          <option>Teknik</option>
-                          <option>Psikologi</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="example-text-input" class="form-control-label">Tempat Lahir</label>
-                        <input class="form-control" type="text" value="" id="example-text-input">
-                      </div>
-                      <div class="form-group">
-                        <label for="example-date-input" class="form-control-label">Tanggal Lahir</label>
-                        <input class="form-control" type="date" value="" id="example-date-input">
-                    </div>
-                      <div class="form-group">
-                        <label for="example-text-input" class="form-control-label">Nomor KTP/NIK/Paspor</label>
-                        <input class="form-control" type="text" value="" id="example-text-input">
-                      </div>
-                      <div class="form-group">
-                        <label for="example-text-input" class="form-control-label">Nomor Handphone (08xxxxxxxxxx)</label>
-                        <input class="form-control" type="text" value="" id="example-text-input">
-                      </div>
-                      <div class="form-group">
-                        <label for="example-text-input" class="form-control-label">Alamat Lengkap (Sesuai KTP)</label>
-                        <input class="form-control" type="text" value="" id="example-text-input">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1">Perkiraan Waktu Wisuda</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option disabled selected>--- Pilih Perkiraan Waktu Wisuda ---</option>
-                          <option>Periode 1</option>
-                          <option>Periode 2</option>
-                        </select>
-                      </div>
+                <h4 class="fw-bolder" style="color: #7D8F69;">Pengisian Dokumen Pendukung Kompetensi Seluruh Unit - Jika Ada</h1>
+                <h5 class="mt-4 mb-4" style="color: #547153">Unggah Bukti Pendukung Asesmen Mandiri yang Relevan, Selain dari Bukti/ Dokumen APL02 (jika ada)</h5>
+                
+                <label for="exampleFormControlSelect1">Dokumen Pendukung</label>
+                <div class="input-group mb-3">
+                    <input type="file" class="form-control" placeholder="" aria-label="" aria-describedby="">
                   </div>
                   
                   <div class="row ">
                     <div class="col align-self-end">
+                      
+                      <button class="btn btn-success mt-2" type="submit">+ Unggah Dokumen Lain</button>
+                      
+                      
+                    </div>
 
-                      <button class="btn btn-success mt-3" type="submit">Berikutnya</button>
 
+                  <div class="row ">
+                    <div class="col align-self-end">
+                      
+                      <button class="btn btn-success mt-6" type="submit">Kirim</button>
+                      
                       
                     </div>
                   </div>

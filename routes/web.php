@@ -31,6 +31,7 @@ Route::get('/formpendaftaran2', [FormPendaftaranController::class, 'persyaratan1
 Route::get('/formpendaftaran3', [FormPendaftaranController::class, 'persyaratan2']);
 Route::get('/formpendaftaran4', [FormPendaftaranController::class, 'apl01']);
 Route::get('/formpendaftaran5', [FormPendaftaranController::class, 'apl02']);
+Route::get('/formpendaftaran6', [FormPendaftaranController::class, 'pemberkasan']);
 Route::post('pendaftaran/', [FormPendaftaranController::class,'storePendaftaran'])->name('registrasi');
 
 

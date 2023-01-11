@@ -48,6 +48,13 @@ class FormPendaftaranController extends Controller
             }
         return view('formpendaftaran5');
     }
+    
+    public function pemberkasan(){
+        if (!Session::has('isLoggedIn') && !Auth::check()) {
+            return redirect()->to('login');
+            }
+        return view('formpendaftaran6');
+    }
 
     public function storePendaftaran(Request $request){
         $url      = env('APP_ENDPOINT_MHS');
