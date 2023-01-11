@@ -163,7 +163,7 @@
             <div class="card-body px-0 pt-0 pb-2">
               <div class="table-responsive p-0">
                 <table class="table align-items-center mb-0">
-                  <a class="btn-link" href="formpendaftaran"> 
+                  <a class="btn-link" href="formpendaftaran1"> 
                     <button class="btn btn-icon btn-sm btn-success mx-4" type="button">
                       <span class="btn-inner--icon"><i class="ni ni-fat-add"></i></span>
                       <span class="btn-inner--text">Mendaftar</span>

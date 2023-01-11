@@ -5,6 +5,8 @@ use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\BakhumController;
 use App\Http\Controllers\Dashboard\HomeController;
 use App\Http\Controllers\Dashboard\MahasiswaController;
+use App\Http\Controllers\Dashboard\FormPendaftaranController;
+use App\Http\Controllers\Dashboard\PendaftaranController;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
 
@@ -24,14 +26,20 @@ Route::get('/login', [LoginController::class, 'index'])->name('login')->middlewa
 Route::post('/attemptLogin', [LoginController::class, 'attemptLogin']);
 Route::get('/logout', [LoginController::class, 'logout'])->name('login.logout');
 Route::get('/dashboard', [HomeController::class, 'index'])->name('dashboard');
+Route::get('/formpendaftaran1',[FormPendaftaranController::class,'skema']);
+Route::get('/formpendaftaran2', [FormPendaftaranController::class, 'persyaratan1']);
+Route::get('/formpendaftaran3', [FormPendaftaranController::class, 'persyaratan2']);
+Route::get('/formpendaftaran4', [FormPendaftaranController::class, 'apl01']);
+Route::get('/formpendaftaran5', [FormPendaftaranController::class, 'apl02']);
+Route::post('pendaftaran/', [FormPendaftaranController::class,'storePendaftaran'])->name('registrasi');
 
-Route::get('/pendaftaran', function () {
-    if (!Session::has('isLoggedIn') && !Auth::check()) {
-        return redirect()->to('login');
-      }
-    return view('pendaftaran');
-});
 
-Route::get('/formpendaftaran', function () {
-    return view('formpendaftaran');
-});
+// Auth
+Route::get('/pendaftaran', [PendaftaranController::class, 'index']);
+
+// Route::get('/formpendaftaran1', function () {
+//     if (!Session::has('isLoggedIn') && !Auth::check()) {
+//         return redirect()->to('login');
+//       }
+//     return view('formpendaftaran1');
+// });

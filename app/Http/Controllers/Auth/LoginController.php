@@ -77,7 +77,7 @@ class LoginController extends Controller
       try {
           $akun = DB::table('ref_modes')->where('id', $user->mode)->first();
           $mode = $akun->mode;
-          session([
+          session([ 
               'user_name' => $user->nama,
               'user_username' => $user->username,
               'user_cmode' => $user->mode,
