@@ -27,13 +27,12 @@ Route::post('/attemptLogin', [LoginController::class, 'attemptLogin']);
 Route::get('/logout', [LoginController::class, 'logout'])->name('login.logout');
 Route::get('/dashboard', [HomeController::class, 'index'])->name('dashboard');
 Route::get('/formpendaftaran1',[FormPendaftaranController::class,'skema']);
-Route::get('/formpendaftaran2', [FormPendaftaranController::class, 'persyaratan1']);
+Route::get('/formpendaftaran2', [FormPendaftaranController::class, 'createDatadiri'])->name('createDatadiri');
 Route::get('/formpendaftaran3', [FormPendaftaranController::class, 'persyaratan2']);
 Route::get('/formpendaftaran4', [FormPendaftaranController::class, 'apl01']);
 Route::get('/formpendaftaran5', [FormPendaftaranController::class, 'apl02']);
 Route::get('/formpendaftaran6', [FormPendaftaranController::class, 'pemberkasan']);
 Route::post('pendaftaran/', [FormPendaftaranController::class,'storePendaftaran'])->name('registrasi');
-
 
 // Auth
 Route::get('/pendaftaran', [PendaftaranController::class, 'index']);

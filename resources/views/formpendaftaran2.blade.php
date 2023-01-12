@@ -182,66 +182,54 @@
                         <h5 class="mt-4" style="color: #547153">Silakan Mengisi Data Persyaratan Pendaftaran Terlebih Dahulu</h5> <br>
                     </div>
                     <form>
+                      @csrf
+                      @method('POST')
                       <div class="form-group">
                           <label for="example-text-input" class="form-control-label">Nama Lengkap</label>
-                          <input class="form-control" type="text" value="{{ session('user_name') }}" id="example-text-input">
+                          <input class="form-control" disabled type="text" value="{{ $nama }}" id="example-text-input">
                       </div>
                       <div class="form-group">
-                        <label for="exampleFormControlSelect1">Jenis Kelamin</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option disabled selected>---Pilih Jenis Kelamin---</option>
-                          <option>Laki-laki</option>
-                          <option>Perempuan</option>
-                        </select>
-                      </div>
+                        <label for="example-text-input" class="form-control-label">Jenis Kelamin</label>
+                        <input class="form-control" disabled type="text" value="{{ $kelamin }}" id="example-text-input">
+                    </div>
                       <div class="form-group">
                           <label for="example-text-input" class="form-control-label">NIM</label>
-                          <input class="form-control" type="text" value="" id="example-text-input">
+                          <input class="form-control" disabled type="text" value="{{ $nim }}" id="example-text-input">
                       </div>
                       <div class="form-group">
-                        <label for="exampleFormControlSelect1">Fakultas</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option disabled selected>---Pilih Fakultas---</option>
-                          <option>MIPA</option>
-                          <option>Teknik</option>
-                          <option>Psikologi</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1">Program Studi</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option disabled selected>---Pilih Program Studi---</option>
-                          <option>MIPA</option>
-                          <option>Teknik</option>
-                          <option>Psikologi</option>
-                        </select>
-                      </div>
+                        <label for="example-text-input" class="form-control-label">Fakultas</label>
+                        <input class="form-control" disabled type="text" value="{{ $fakultas }}" id="example-text-input">
+                    </div>
+                    <div class="form-group">
+                      <label for="example-text-input" class="form-control-label">Prodi</label>
+                      <input class="form-control" disabled type="text" value="{{ $prodi }}" id="example-text-input">
+                  </div>
                       <div class="form-group">
                         <label for="example-text-input" class="form-control-label">Tempat Lahir</label>
-                        <input class="form-control" type="text" value="" id="example-text-input">
+                        <input class="form-control" disabled type="text" value="{{ $tempatLahir }}" id="example-text-input">
                       </div>
                       <div class="form-group">
                         <label for="example-date-input" class="form-control-label">Tanggal Lahir</label>
-                        <input class="form-control" type="date" value="" id="example-date-input">
+                        <input class="form-control" disabled type="date" value="{{ $tanggalLahir }}" id="example-date-input">
                     </div>
                       <div class="form-group">
                         <label for="example-text-input" class="form-control-label">Nomor KTP/NIK/Paspor</label>
-                        <input class="form-control" type="text" value="" id="example-text-input">
+                        <input class="form-control" disabled type="text" value="{{ $nik }}" id="example-text-input">
                       </div>
                       <div class="form-group">
-                        <label for="example-text-input" class="form-control-label">Nomor Handphone (08xxxxxxxxxx)</label>
-                        <input class="form-control" type="text" value="" id="example-text-input">
+                        <label for="example-text-input" class="form-control-label">Nomor Handphone (08xxxxxxxxxx) Terhubung ke WhatsApp</label>
+                        <input class="form-control" type="text" value="{{ $hpm }}" id="example-text-input">
                       </div>
                       <div class="form-group">
                         <label for="example-text-input" class="form-control-label">Alamat Lengkap (Sesuai KTP)</label>
-                        <input class="form-control" type="text" value="" id="example-text-input">
+                        <input class="form-control" type="text" value="{{ $alamat }}" id="example-text-input">
                       </div>
                       <div class="form-group">
-                        <label for="exampleFormControlSelect1">Perkiraan Waktu Wisuda</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option disabled selected>--- Pilih Perkiraan Waktu Wisuda ---</option>
-                          <option>Periode 1</option>
-                          <option>Periode 2</option>
+                        <label for="exampleFormControlSelect1">Perkiraan Waktu Wisuda (Semester)</label>
+                        <select class="form-control" id="exampleFormControlSelect1" required>
+                          <option disabled selected></option>
+                          <option>Sebelum</option>
+                          <option>Sesudah</option>
                         </select>
                       </div>
                   </div>

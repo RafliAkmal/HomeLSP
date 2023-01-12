@@ -11,9 +11,7 @@ use Illuminate\Http\Request;
 class PendaftaranController extends Controller
 {
     public function index(){
-        if (!Session::has('isLoggedIn') && !Auth::check()) {
-            return redirect()->to('login');
-            }
+        $this->authCheck();
         return view('pendaftaran');
     }
 }

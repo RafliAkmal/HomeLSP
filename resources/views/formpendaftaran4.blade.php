@@ -227,13 +227,13 @@
                     <input class="form-control" type="text" value="" id="example-text-input">
                   </div>
                   <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Kualifikasi Pendidikan</label>
+                    <label for="example-text-input" class="form-control-label">Pendidikan Terakhir</label>
                     <input class="form-control" type="text" value="" id="example-text-input">
                   </div>
 
                   <h6 class="mt-2 mb-2" style="color: #547153">b. Data Pekerjaan Sekarang</h6>
                   <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Kualifikasi Pendidikan</label>
+                    <label for="example-text-input" class="form-control-label">Nama Institusi / Perusahaan</label>
                     <input class="form-control" type="text" value="" id="example-text-input">
                   </div>
                   <div class="form-group">
